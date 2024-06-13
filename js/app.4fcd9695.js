@@ -3,12 +3,13 @@
 /******/ 	var __webpack_modules__ = ({
 
 /***/ 696:
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
-// NAMESPACE OBJECT: ./src/main.js
-var main_namespaceObject = {};
-__webpack_require__.r(main_namespaceObject);
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  A: () => (/* binding */ main)
+});
 
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.runtime.esm.js
 var vue_runtime_esm = __webpack_require__(471);
@@ -342,9 +343,9 @@ const router = new vue_router_esm/* default */.Ay({
 router.beforeEach((to, from, next) => {
   const titleKey = to.meta.titleKey;
   if (titleKey) {
-    document.title = main_namespaceObject["default"].t(`message.${titleKey}`);
+    document.title = main.t(`message.${titleKey}`);
   } else {
-    document.title = main_namespaceObject["default"].t('message.default_title');
+    document.title = main.t('message.default_title');
   }
   next();
 });
@@ -529,7 +530,7 @@ new vue_runtime_esm/* default */.Ay({
   i18n,
   render: h => h(App),
 }).$mount('#app');
-
+/* harmony default export */ const main = (i18n);
 
 /***/ }),
 
@@ -659,17 +660,6 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
 /******/ 		__webpack_require__.p = "/";
@@ -738,4 +728,4 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.bf0c1dfa.js.map
+//# sourceMappingURL=app.4fcd9695.js.map
