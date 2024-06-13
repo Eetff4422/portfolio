@@ -6,10 +6,6 @@
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
-// NAMESPACE OBJECT: ./src/main.js
-var main_namespaceObject = {};
-__webpack_require__.r(main_namespaceObject);
-
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.runtime.esm.js
 var vue_runtime_esm = __webpack_require__(471);
 // EXTERNAL MODULE: ./node_modules/vue-i18n/dist/vue-i18n.esm.js
@@ -302,7 +298,6 @@ var Projects_component = (0,componentNormalizer/* default */.A)(
 
 
 
-
 vue_runtime_esm/* default */.Ay.use(vue_router_esm/* default */.Ay);
 
 const router = new vue_router_esm/* default */.Ay({
@@ -312,25 +307,25 @@ const router = new vue_router_esm/* default */.Ay({
       path: '/',
       name: 'Home',
       component: Home,
-      meta: { titleKey: 'home_page_title' }
+      meta: { title: 'Accueil' }
     },
     {
       path: '/projects',
       name: 'Projects',
       component: Projects,
-      meta: { titleKey: 'projects_page_title' }
+      meta: { title: 'Projets' }
     },
     {
       path: '/contact',
       name: 'Contact',
       component: Contact,
-      meta: { titleKey: 'contact_page_title' }
+      meta: { title: 'Contact' }
     },
     {
       path: '/details',
       name: 'Details',
       component: Details,
-      meta: { titleKey: 'details_page_title' }
+      meta: { title: 'Détails' }
     }
   ],
   scrollBehavior(to, from, savedPosition) {
@@ -340,12 +335,8 @@ const router = new vue_router_esm/* default */.Ay({
 
 // Hook de navigation globale
 router.beforeEach((to, from, next) => {
-  const titleKey = to.meta.titleKey;
-  if (titleKey) {
-    document.title = main_namespaceObject["default"].t(`message.${titleKey}`);
-  } else {
-    document.title = main_namespaceObject["default"].t('message.default_title');
-  }
+  const title = to.meta.title || 'Mon Portfolio';
+  document.title = title;
   next();
 });
 
@@ -659,17 +650,6 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
 /******/ 		__webpack_require__.p = "/";
@@ -738,4 +718,4 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.d47d8252.js.map
+//# sourceMappingURL=app.65214f92.js.map

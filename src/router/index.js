@@ -4,7 +4,6 @@ import Contact from '../components/Contact.vue';
 import Details from '../components/Details.vue';
 import Home from '../components/Home.vue';
 import Projects from '../components/Projects.vue';
-import i18n from '../main';
 
 Vue.use(Router);
 
@@ -15,25 +14,25 @@ const router = new Router({
       path: '/',
       name: 'Home',
       component: Home,
-      meta: { titleKey: 'home_page_title' }
+      meta: { title: 'Accueil' }
     },
     {
       path: '/projects',
       name: 'Projects',
       component: Projects,
-      meta: { titleKey: 'projects_page_title' }
+      meta: { title: 'Projets' }
     },
     {
       path: '/contact',
       name: 'Contact',
       component: Contact,
-      meta: { titleKey: 'contact_page_title' }
+      meta: { title: 'Contact' }
     },
     {
       path: '/details',
       name: 'Details',
       component: Details,
-      meta: { titleKey: 'details_page_title' }
+      meta: { title: 'Détails' }
     }
   ],
   scrollBehavior(to, from, savedPosition) {
@@ -43,12 +42,8 @@ const router = new Router({
 
 // Hook de navigation globale
 router.beforeEach((to, from, next) => {
-  const titleKey = to.meta.titleKey;
-  if (titleKey) {
-    document.title = i18n.t(`message.${titleKey}`);
-  } else {
-    document.title = i18n.t('message.default_title');
-  }
+  const title = to.meta.title || 'Mon Portfolio';
+  document.title = title;
   next();
 });
 
