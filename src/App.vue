@@ -18,12 +18,21 @@
  </template>
 
  <script>
+ import favicon from './assets/favicon.webp';
+
  export default {
    data() {
      return {
        currentLanguage: 'EN'
      };
    },
+   mounted() {
+    // Ajouter dynamiquement le favicon
+    const link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = favicon;
+    document.head.appendChild(link);
+  },
    methods: {
      toggleLanguage() {
        if (this.$i18n.locale === 'fr') {

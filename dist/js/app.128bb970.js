@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 696:
+/***/ 693:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
@@ -10,13 +10,17 @@
 var vue_runtime_esm = __webpack_require__(471);
 // EXTERNAL MODULE: ./node_modules/vue-i18n/dist/vue-i18n.esm.js
 var vue_i18n_esm = __webpack_require__(765);
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/App.vue?vue&type=template&id=d4362dd4
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/App.vue?vue&type=template&id=0aeb0a89
 var render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',{attrs:{"id":"app"}},[_c('nav',{staticClass:"container-fluid custom-nav"},[_c('ul',[_c('li',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.msg_welcome')))])])]),_c('ul',[_c('li',[_c('a',{attrs:{"href":"#/"}},[_vm._v(_vm._s(_vm.$t('message.home_page')))])]),_c('li',[_c('a',{attrs:{"href":"#/projects"}},[_vm._v(_vm._s(_vm.$t('message.projects')))])]),_c('li',[_c('a',{attrs:{"href":"#/contact"}},[_vm._v(_vm._s(_vm.$t('message.contact')))])]),_c('li',[_c('a',{attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();return _vm.toggleLanguage.apply(null, arguments)}}},[_vm._v(_vm._s(_vm.currentLanguage))])])])]),_c('main',{staticClass:"container custom-container"},[_c('router-view',{key:_vm.$route.fullPath})],1)])
 }
 var staticRenderFns = []
 
 
+;// CONCATENATED MODULE: ./src/assets/favicon.webp
+const favicon_namespaceObject = __webpack_require__.p + "img/favicon.de7510cc.webp";
 ;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/App.vue?vue&type=script&lang=js
+
+ 
 
  /* harmony default export */ const Appvue_type_script_lang_js = ({
    data() {
@@ -24,6 +28,13 @@ var staticRenderFns = []
        currentLanguage: 'EN'
      };
    },
+   mounted() {
+    // Ajouter dynamiquement le favicon
+    const link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = favicon_namespaceObject;
+    document.head.appendChild(link);
+  },
    methods: {
      toggleLanguage() {
        if (this.$i18n.locale === 'fr') {
@@ -39,10 +50,10 @@ var staticRenderFns = []
  
 ;// CONCATENATED MODULE: ./src/App.vue?vue&type=script&lang=js
  /* harmony default export */ const src_Appvue_type_script_lang_js = (Appvue_type_script_lang_js); 
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/App.vue?vue&type=style&index=0&id=d4362dd4&prod&lang=css
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/App.vue?vue&type=style&index=0&id=0aeb0a89&prod&lang=css
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/App.vue?vue&type=style&index=0&id=d4362dd4&prod&lang=css
+;// CONCATENATED MODULE: ./src/App.vue?vue&type=style&index=0&id=0aeb0a89&prod&lang=css
 
 // EXTERNAL MODULE: ./node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__(656);
@@ -713,9 +724,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [504], () => (__webpack_require__(696)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [504], () => (__webpack_require__(693)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.65214f92.js.map
+//# sourceMappingURL=app.128bb970.js.map
