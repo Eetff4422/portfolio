@@ -359,6 +359,9 @@ router.beforeEach((to, from, next) => {
 
 
 
+
+
+
 vue_runtime_esm/* default */.Ay.config.productionTip = false;
 
 vue_runtime_esm/* default */.Ay.use(vue_i18n_esm/* default */.A);
@@ -525,6 +528,11 @@ const i18n = new vue_i18n_esm/* default */.A({
   fallbackLocale: 'en', // set fallback locale
   messages, // set locale messages
 });
+
+const main_link = document.createElement('link');
+main_link.rel = 'icon';
+main_link.href = favicon_namespaceObject;
+document.head.appendChild(main_link);
 
 new vue_runtime_esm/* default */.Ay({
   router: src_router,
@@ -729,4 +737,4 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.128bb970.js.map
+//# sourceMappingURL=app.0f47900b.js.map
