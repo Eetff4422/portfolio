@@ -619,7 +619,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/portfolio/#/";
+/******/ 		__webpack_require__.p = "/portfolio/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
@@ -685,4 +685,4 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.911e7502.js.map
+//# sourceMappingURL=app.f3b5c3a3.js.map
