@@ -33,6 +33,9 @@
  <script>
  export default {
    name: 'Projects',
+   mounted() {
+    document.title = "Projects";
+  },
  };
  </script>
 

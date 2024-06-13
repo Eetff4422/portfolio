@@ -56,6 +56,9 @@
 <script>
 export default {
   name: 'Home',
+  mounted() {
+    document.title = "Franklin Essono";
+  },
   methods: {
     navigateToDetails() {
       this.$router.push('/details');

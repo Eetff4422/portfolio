@@ -84,6 +84,9 @@
 <script>
 export default {
   name: 'Details',
+  mounted() {
+    document.title = "Details";
+  },
   computed: {
     cvLink() {
       return this.$t('message.cv_link');

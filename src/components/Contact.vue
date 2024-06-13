@@ -38,6 +38,9 @@
        }
      };
    },
+   mounted() {
+    document.title = "Contact";
+  },
    methods: {
      sendEmail() {
       const serviceID = process.env.VUE_APP_SERVICE_ID;
