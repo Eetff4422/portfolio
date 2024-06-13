@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 738:
+/***/ 696:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
@@ -69,18 +69,21 @@ var component = (0,componentNormalizer/* default */.A)(
 /* harmony default export */ const App = (component.exports);
 // EXTERNAL MODULE: ./node_modules/vue-router/dist/vue-router.esm.js
 var vue_router_esm = __webpack_require__(173);
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=template&id=bc7787f2&scoped=true
-var Homevue_type_template_id_bc7787f2_scoped_true_render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',[_c('section',{staticClass:"section-card hero"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.about')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.about_msg')))])]),_c('section',{staticClass:"section-card profile"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.profile')))]),_c('div',{staticClass:"certification-card"},[_c('a',{attrs:{"href":"https://www.institut-f2i.fr/","target":"_blank"}},[_c('img',{staticClass:"certification-logo",attrs:{"src":__webpack_require__(817),"alt":"F2I Logo"}})]),_vm._v("     "),_c('a',{attrs:{"href":"https://www.hemmersbach.com","target":"_blank"}},[_c('img',{staticClass:"certification-logo",attrs:{"src":__webpack_require__(131),"alt":"Hemmersbach Logo"}})]),_vm._v("     "),_c('a',{attrs:{"href":"https://www.cea.fr","target":"_blank"}},[_c('img',{staticClass:"certification-logo",attrs:{"src":__webpack_require__(667),"alt":"CEA Logo"}})]),_vm._v("     "),_c('a',{attrs:{"href":"https://www.esiea.fr","target":"_blank"}},[_c('img',{staticClass:"certification-logo",attrs:{"src":__webpack_require__(219),"alt":"ESIEA Logo"}})])]),_c('button',{on:{"click":_vm.navigateToDetails}},[_vm._v(_vm._s(_vm.$t('message.learn_more')))])]),_c('div',{staticClass:"card-container"},[_c('section',{staticClass:"section-card certifications"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.certifications')))]),_c('div',{staticClass:"certifications"},[_c('div',{staticClass:"certification-card"},[_c('img',{staticClass:"certification-logo",attrs:{"src":__webpack_require__(708),"alt":"freeCodeCamp Logo"}}),_c('div',{staticClass:"certification-details"},[_c('h4',[_vm._v("Data Analysis with Python")]),_c('p',[_vm._v("freeCodeCamp")]),_c('p',[_vm._v(_vm._s(_vm.$t('message.certifications_desc')))]),_c('a',{attrs:{"href":"https://www.freecodecamp.org/certification/FranklinEssonoEssono/data-analysis-with-python-v7","target":"_blank"}},[_vm._v(_vm._s(_vm.$t('message.view_certification')))])])])])])]),_c('section',{staticClass:"section-card contact-info"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.contact')))]),_c('div',{staticClass:"contact-info"},[_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.phone'))+":")]),_vm._v(" +33 7 82 14 60 19")]),_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.email'))+":")]),_vm._v(" "),_c('a',{attrs:{"href":"mailto:frangiessono1@gmail.com"}},[_vm._v("frangiessono1@gmail.com")])]),_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.linkedin'))+":")]),_vm._v(" "),_c('a',{attrs:{"href":"https://www.linkedin.com/in/franklin-essono/","target":"_blank"}},[_vm._v("franklin-essono")])])])])])
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=template&id=8fa7012a&scoped=true
+var Homevue_type_template_id_8fa7012a_scoped_true_render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',[_c('section',{staticClass:"section-card hero"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.about')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.about_msg')))])]),_c('section',{staticClass:"section-card profile"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.profile')))]),_c('div',{staticClass:"certification-card"},[_c('a',{attrs:{"href":"https://www.institut-f2i.fr/","target":"_blank"}},[_c('img',{staticClass:"certification-logo",attrs:{"src":__webpack_require__(817),"alt":"F2I Logo"}})]),_vm._v("     "),_c('a',{attrs:{"href":"https://www.hemmersbach.com","target":"_blank"}},[_c('img',{staticClass:"certification-logo",attrs:{"src":__webpack_require__(131),"alt":"Hemmersbach Logo"}})]),_vm._v("     "),_c('a',{attrs:{"href":"https://www.cea.fr","target":"_blank"}},[_c('img',{staticClass:"certification-logo",attrs:{"src":__webpack_require__(667),"alt":"CEA Logo"}})]),_vm._v("     "),_c('a',{attrs:{"href":"https://www.esiea.fr","target":"_blank"}},[_c('img',{staticClass:"certification-logo",attrs:{"src":__webpack_require__(219),"alt":"ESIEA Logo"}})])]),_c('button',{on:{"click":_vm.navigateToDetails}},[_vm._v(_vm._s(_vm.$t('message.learn_more')))])]),_c('div',{staticClass:"card-container"},[_c('section',{staticClass:"section-card certifications"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.certifications')))]),_c('div',{staticClass:"certifications"},[_c('div',{staticClass:"certification-card"},[_c('img',{staticClass:"certification-logo",attrs:{"src":__webpack_require__(708),"alt":"freeCodeCamp Logo"}}),_c('div',{staticClass:"certification-details"},[_c('h4',[_vm._v("Data Analysis with Python")]),_c('p',[_vm._v("freeCodeCamp")]),_c('p',[_vm._v(_vm._s(_vm.$t('message.certifications_desc')))]),_c('a',{attrs:{"href":"https://www.freecodecamp.org/certification/FranklinEssonoEssono/data-analysis-with-python-v7","target":"_blank"}},[_vm._v(_vm._s(_vm.$t('message.view_certification')))])])])])])]),_c('section',{staticClass:"section-card contact-info"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.contact')))]),_c('div',{staticClass:"contact-info"},[_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.phone'))+":")]),_vm._v(" +33 7 82 14 60 19")]),_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.email'))+":")]),_vm._v(" "),_c('a',{attrs:{"href":"mailto:frangiessono1@gmail.com"}},[_vm._v("frangiessono1@gmail.com")])]),_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.linkedin'))+":")]),_vm._v(" "),_c('a',{attrs:{"href":"https://www.linkedin.com/in/franklin-essono/","target":"_blank"}},[_vm._v("franklin-essono")])])])])])
 }
-var Homevue_type_template_id_bc7787f2_scoped_true_staticRenderFns = []
+var Homevue_type_template_id_8fa7012a_scoped_true_staticRenderFns = []
 
 
-;// CONCATENATED MODULE: ./src/components/Home.vue?vue&type=template&id=bc7787f2&scoped=true
+;// CONCATENATED MODULE: ./src/components/Home.vue?vue&type=template&id=8fa7012a&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=script&lang=js
 
 /* harmony default export */ const Homevue_type_script_lang_js = ({
   name: 'Home',
+  mounted() {
+    document.title = "Franklin Essono";
+  },
   methods: {
     navigateToDetails() {
       this.$router.push('/details');
@@ -90,10 +93,10 @@ var Homevue_type_template_id_bc7787f2_scoped_true_staticRenderFns = []
 
 ;// CONCATENATED MODULE: ./src/components/Home.vue?vue&type=script&lang=js
  /* harmony default export */ const components_Homevue_type_script_lang_js = (Homevue_type_script_lang_js); 
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=style&index=0&id=bc7787f2&prod&scoped=true&lang=css
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=style&index=0&id=8fa7012a&prod&scoped=true&lang=css
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/components/Home.vue?vue&type=style&index=0&id=bc7787f2&prod&scoped=true&lang=css
+;// CONCATENATED MODULE: ./src/components/Home.vue?vue&type=style&index=0&id=8fa7012a&prod&scoped=true&lang=css
 
 ;// CONCATENATED MODULE: ./src/components/Home.vue
 
@@ -106,20 +109,20 @@ var Homevue_type_template_id_bc7787f2_scoped_true_staticRenderFns = []
 
 var Home_component = (0,componentNormalizer/* default */.A)(
   components_Homevue_type_script_lang_js,
-  Homevue_type_template_id_bc7787f2_scoped_true_render,
-  Homevue_type_template_id_bc7787f2_scoped_true_staticRenderFns,
+  Homevue_type_template_id_8fa7012a_scoped_true_render,
+  Homevue_type_template_id_8fa7012a_scoped_true_staticRenderFns,
   false,
   null,
-  "bc7787f2",
+  "8fa7012a",
   null
   
 )
 
 /* harmony default export */ const Home = (Home_component.exports);
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Contact.vue?vue&type=template&id=383fc180&scoped=true
-var Contactvue_type_template_id_383fc180_scoped_true_render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',[_c('section',{staticClass:"section-card contact-information"},[_c('h3',[_vm._v(_vm._s(_vm.$t('message.contact_info')))]),_c('div',{staticClass:"contact-card"},[_c('div',{staticClass:"contact-info"},[_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.phone'))+" :")]),_vm._v(" +33 7 82 14 60 19")]),_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.email'))+" :")]),_vm._v(" "),_c('a',{attrs:{"href":"mailto:frangiessono1@gmail.com"}},[_vm._v("frangiessono1@gmail.com")])]),_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.linkedin'))+" :")]),_vm._v(" "),_c('a',{attrs:{"href":"https://www.linkedin.com/in/franklin-essono/","target":"_blank"}},[_vm._v("franklin-essono")])])])])]),_c('section',{staticClass:"section-card contact-form"},[_c('h3',[_vm._v(_vm._s(_vm.$t('message.contact_form')))]),_c('form',{staticClass:"grid",on:{"submit":function($event){$event.preventDefault();return _vm.sendEmail.apply(null, arguments)}}},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.from_name),expression:"form.from_name"}],attrs:{"type":"text","id":"from_name","name":"from_name","placeholder":_vm.$t('message.your_name'),"aria-label":"Prénom","required":""},domProps:{"value":(_vm.form.from_name)},on:{"input":function($event){if($event.target.composing)return;_vm.$set(_vm.form, "from_name", $event.target.value)}}}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.reply_to),expression:"form.reply_to"}],attrs:{"type":"email","id":"reply_to","name":"reply_to","placeholder":_vm.$t('message.your_email'),"aria-label":"Email","required":""},domProps:{"value":(_vm.form.reply_to)},on:{"input":function($event){if($event.target.composing)return;_vm.$set(_vm.form, "reply_to", $event.target.value)}}}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.subject),expression:"form.subject"}],attrs:{"type":"text","id":"subject","name":"subject","placeholder":_vm.$t('message.subject'),"aria-label":"Objet","required":""},domProps:{"value":(_vm.form.subject)},on:{"input":function($event){if($event.target.composing)return;_vm.$set(_vm.form, "subject", $event.target.value)}}}),_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.message),expression:"form.message"}],attrs:{"id":"message","name":"message","placeholder":_vm.$t('message.your_message'),"aria-label":"Message","required":""},domProps:{"value":(_vm.form.message)},on:{"input":function($event){if($event.target.composing)return;_vm.$set(_vm.form, "message", $event.target.value)}}}),_c('button',{attrs:{"type":"submit"}},[_vm._v(_vm._s(_vm.$t('message.send')))])])])])
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Contact.vue?vue&type=template&id=74676d90&scoped=true
+var Contactvue_type_template_id_74676d90_scoped_true_render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',[_c('section',{staticClass:"section-card contact-information"},[_c('h3',[_vm._v(_vm._s(_vm.$t('message.contact_info')))]),_c('div',{staticClass:"contact-card"},[_c('div',{staticClass:"contact-info"},[_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.phone'))+" :")]),_vm._v(" +33 7 82 14 60 19")]),_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.email'))+" :")]),_vm._v(" "),_c('a',{attrs:{"href":"mailto:frangiessono1@gmail.com"}},[_vm._v("frangiessono1@gmail.com")])]),_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.linkedin'))+" :")]),_vm._v(" "),_c('a',{attrs:{"href":"https://www.linkedin.com/in/franklin-essono/","target":"_blank"}},[_vm._v("franklin-essono")])])])])]),_c('section',{staticClass:"section-card contact-form"},[_c('h3',[_vm._v(_vm._s(_vm.$t('message.contact_form')))]),_c('form',{staticClass:"grid",on:{"submit":function($event){$event.preventDefault();return _vm.sendEmail.apply(null, arguments)}}},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.from_name),expression:"form.from_name"}],attrs:{"type":"text","id":"from_name","name":"from_name","placeholder":_vm.$t('message.your_name'),"aria-label":"Prénom","required":""},domProps:{"value":(_vm.form.from_name)},on:{"input":function($event){if($event.target.composing)return;_vm.$set(_vm.form, "from_name", $event.target.value)}}}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.reply_to),expression:"form.reply_to"}],attrs:{"type":"email","id":"reply_to","name":"reply_to","placeholder":_vm.$t('message.your_email'),"aria-label":"Email","required":""},domProps:{"value":(_vm.form.reply_to)},on:{"input":function($event){if($event.target.composing)return;_vm.$set(_vm.form, "reply_to", $event.target.value)}}}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.subject),expression:"form.subject"}],attrs:{"type":"text","id":"subject","name":"subject","placeholder":_vm.$t('message.subject'),"aria-label":"Objet","required":""},domProps:{"value":(_vm.form.subject)},on:{"input":function($event){if($event.target.composing)return;_vm.$set(_vm.form, "subject", $event.target.value)}}}),_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.form.message),expression:"form.message"}],attrs:{"id":"message","name":"message","placeholder":_vm.$t('message.your_message'),"aria-label":"Message","required":""},domProps:{"value":(_vm.form.message)},on:{"input":function($event){if($event.target.composing)return;_vm.$set(_vm.form, "message", $event.target.value)}}}),_c('button',{attrs:{"type":"submit"}},[_vm._v(_vm._s(_vm.$t('message.send')))])])])])
 }
-var Contactvue_type_template_id_383fc180_scoped_true_staticRenderFns = []
+var Contactvue_type_template_id_74676d90_scoped_true_staticRenderFns = []
 
 
 // EXTERNAL MODULE: ./node_modules/emailjs-com/es/index.js + 7 modules
@@ -140,6 +143,9 @@ var es = __webpack_require__(815);
        }
      };
    },
+   mounted() {
+    document.title = "Contact";
+  },
    methods: {
      sendEmail() {
       const serviceID = "service_56x7a4m";
@@ -167,10 +173,10 @@ var es = __webpack_require__(815);
  
 ;// CONCATENATED MODULE: ./src/components/Contact.vue?vue&type=script&lang=js
  /* harmony default export */ const components_Contactvue_type_script_lang_js = (Contactvue_type_script_lang_js); 
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Contact.vue?vue&type=style&index=0&id=383fc180&prod&scoped=true&lang=css
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Contact.vue?vue&type=style&index=0&id=74676d90&prod&scoped=true&lang=css
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/components/Contact.vue?vue&type=style&index=0&id=383fc180&prod&scoped=true&lang=css
+;// CONCATENATED MODULE: ./src/components/Contact.vue?vue&type=style&index=0&id=74676d90&prod&scoped=true&lang=css
 
 ;// CONCATENATED MODULE: ./src/components/Contact.vue
 
@@ -183,34 +189,37 @@ var es = __webpack_require__(815);
 
 var Contact_component = (0,componentNormalizer/* default */.A)(
   components_Contactvue_type_script_lang_js,
-  Contactvue_type_template_id_383fc180_scoped_true_render,
-  Contactvue_type_template_id_383fc180_scoped_true_staticRenderFns,
+  Contactvue_type_template_id_74676d90_scoped_true_render,
+  Contactvue_type_template_id_74676d90_scoped_true_staticRenderFns,
   false,
   null,
-  "383fc180",
+  "74676d90",
   null
   
 )
 
 /* harmony default export */ const Contact = (Contact_component.exports);
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Projects.vue?vue&type=template&id=e6d8eb7c&scoped=true
-var Projectsvue_type_template_id_e6d8eb7c_scoped_true_render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',[_c('section',{staticClass:"content-section"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.projects')))]),_c('div',{staticClass:"projects-list"},[_c('div',{staticClass:"project-item",attrs:{"id":"carte-france"}},[_c('h4',[_vm._v(_vm._s(_vm.$t('message.carte_france')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.carte_france_desc')))]),_c('ul',[_c('li',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.main_features'))+" :")]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.carte_france_main_features')))])])]),_c('li',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.tech_uses_title'))+" :")]),_vm._v(" "+_vm._s(_vm.$t('message.carte_france_tech')))]),_c('li',[_c('strong',[_vm._v("Tests :")]),_vm._v(" "+_vm._s(_vm.$t('message.carte_france_tests')))]),_c('li',[_c('strong',[_vm._v("Documentation :")]),_vm._v(" "+_vm._s(_vm.$t('message.carte_france_docs')))])])]),_c('hr'),_c('div',{staticClass:"project-item",attrs:{"id":"demarche-low-tech"}},[_c('h4',[_vm._v(_vm._s(_vm.$t('message.demarche_low_tech')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.demarche_low_tech_desc')))]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.demarche_low_tech_steps')))])])])])])])
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Projects.vue?vue&type=template&id=7353f3a6&scoped=true
+var Projectsvue_type_template_id_7353f3a6_scoped_true_render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',[_c('section',{staticClass:"content-section"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.projects')))]),_c('div',{staticClass:"projects-list"},[_c('div',{staticClass:"project-item",attrs:{"id":"carte-france"}},[_c('h4',[_vm._v(_vm._s(_vm.$t('message.carte_france')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.carte_france_desc')))]),_c('ul',[_c('li',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.main_features'))+" :")]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.carte_france_main_features')))])])]),_c('li',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.tech_uses_title'))+" :")]),_vm._v(" "+_vm._s(_vm.$t('message.carte_france_tech')))]),_c('li',[_c('strong',[_vm._v("Tests :")]),_vm._v(" "+_vm._s(_vm.$t('message.carte_france_tests')))]),_c('li',[_c('strong',[_vm._v("Documentation :")]),_vm._v(" "+_vm._s(_vm.$t('message.carte_france_docs')))])])]),_c('hr'),_c('div',{staticClass:"project-item",attrs:{"id":"demarche-low-tech"}},[_c('h4',[_vm._v(_vm._s(_vm.$t('message.demarche_low_tech')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.demarche_low_tech_desc')))]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.demarche_low_tech_steps')))])])])])])])
 }
-var Projectsvue_type_template_id_e6d8eb7c_scoped_true_staticRenderFns = []
+var Projectsvue_type_template_id_7353f3a6_scoped_true_staticRenderFns = []
 
 
 ;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Projects.vue?vue&type=script&lang=js
 
  /* harmony default export */ const Projectsvue_type_script_lang_js = ({
    name: 'Projects',
+   mounted() {
+    document.title = "Projects";
+  },
  });
  
 ;// CONCATENATED MODULE: ./src/components/Projects.vue?vue&type=script&lang=js
  /* harmony default export */ const components_Projectsvue_type_script_lang_js = (Projectsvue_type_script_lang_js); 
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Projects.vue?vue&type=style&index=0&id=e6d8eb7c&prod&scoped=true&lang=css
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Projects.vue?vue&type=style&index=0&id=7353f3a6&prod&scoped=true&lang=css
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/components/Projects.vue?vue&type=style&index=0&id=e6d8eb7c&prod&scoped=true&lang=css
+;// CONCATENATED MODULE: ./src/components/Projects.vue?vue&type=style&index=0&id=7353f3a6&prod&scoped=true&lang=css
 
 ;// CONCATENATED MODULE: ./src/components/Projects.vue
 
@@ -223,26 +232,29 @@ var Projectsvue_type_template_id_e6d8eb7c_scoped_true_staticRenderFns = []
 
 var Projects_component = (0,componentNormalizer/* default */.A)(
   components_Projectsvue_type_script_lang_js,
-  Projectsvue_type_template_id_e6d8eb7c_scoped_true_render,
-  Projectsvue_type_template_id_e6d8eb7c_scoped_true_staticRenderFns,
+  Projectsvue_type_template_id_7353f3a6_scoped_true_render,
+  Projectsvue_type_template_id_7353f3a6_scoped_true_staticRenderFns,
   false,
   null,
-  "e6d8eb7c",
+  "7353f3a6",
   null
   
 )
 
 /* harmony default export */ const Projects = (Projects_component.exports);
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Details.vue?vue&type=template&id=4c0f7740&scoped=true
-var Detailsvue_type_template_id_4c0f7740_scoped_true_render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',[_c('div',{staticClass:"card-container"},[_c('section',{staticClass:"section-card skills"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.skills')))]),_c('div',{staticClass:"skills"},[_c('ul',[_c('li',[_vm._v("Python")]),_c('li',[_vm._v("JavaScript")]),_c('li',[_vm._v("PHP")]),_c('li',[_vm._v("HTML")]),_c('li',[_vm._v("CSS")]),_c('li',[_vm._v("MySQL")]),_c('li',[_c('strong',[_vm._v("Data Science")]),_vm._v(" ("+_vm._s(_vm.$t('message.data_science_skills_desc'))+")")])])])]),_c('section',{staticClass:"section-card education"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.education')))]),_c('div',{staticClass:"education"},[_c('p',[_vm._v(_vm._s(_vm.$t('message.education_desc')))]),_c('h3',[_vm._v(_vm._s(_vm.$t('message.esiea_software_engineering')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.esiea_description')))]),_c('h4',[_vm._v(_vm._s(_vm.$t('message.esiea_points')))]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_complete_education')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_bilingual_teaching')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_project_based_learning')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_apprenticeship')))])]),_c('h4',[_vm._v(_vm._s(_vm.$t('message.esiea_career_opportunities')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.esiea_job_titles')))]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job1')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job2')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job3')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job4')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job5')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job6')))])]),_c('h4',[_vm._v(_vm._s(_vm.$t('message.esiea_about')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.esiea_about_desc')))])])]),_c('section',{staticClass:"section-card experience"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.experience')))]),_c('div',{staticClass:"experience"},[_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.experience_cea_title')))])]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc1')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc2')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc3')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc4')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc5')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc6')))])]),_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.experience_hemmersbach_title')))])]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_hemmersbach_desc1')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_hemmersbach_desc2')))])])])]),_c('section',{staticClass:"section-card projects"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.projects')))]),_c('div',{staticClass:"projects"},[_c('p',[_c('a',{attrs:{"href":"#/projects#carte-france"}},[_vm._v(_vm._s(_vm.$t('message.carte_france')))])]),_c('p',[_c('a',{attrs:{"href":"#/projects#demarche-low-tech"}},[_vm._v(_vm._s(_vm.$t('message.demarche_low_tech')))])])])]),_c('section',{staticClass:"section-card cv"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.cv')))]),_c('div',{staticClass:"cv"},[_c('p',[_vm._v(_vm._s(_vm.$t('message.msg_cv')))]),_c('a',{attrs:{"href":_vm.cvLink,"target":"_blank"}},[_vm._v(_vm._s(_vm.$t('message.view_cv')))])])])])])
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Details.vue?vue&type=template&id=52b08328&scoped=true
+var Detailsvue_type_template_id_52b08328_scoped_true_render = function render(){var _vm=this,_c=_vm._self._c;return _c('div',[_c('div',{staticClass:"card-container"},[_c('section',{staticClass:"section-card skills"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.skills')))]),_c('div',{staticClass:"skills"},[_c('ul',[_c('li',[_vm._v("Python")]),_c('li',[_vm._v("JavaScript")]),_c('li',[_vm._v("PHP")]),_c('li',[_vm._v("HTML")]),_c('li',[_vm._v("CSS")]),_c('li',[_vm._v("MySQL")]),_c('li',[_c('strong',[_vm._v("Data Science")]),_vm._v(" ("+_vm._s(_vm.$t('message.data_science_skills_desc'))+")")])])])]),_c('section',{staticClass:"section-card education"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.education')))]),_c('div',{staticClass:"education"},[_c('p',[_vm._v(_vm._s(_vm.$t('message.education_desc')))]),_c('h3',[_vm._v(_vm._s(_vm.$t('message.esiea_software_engineering')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.esiea_description')))]),_c('h4',[_vm._v(_vm._s(_vm.$t('message.esiea_points')))]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_complete_education')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_bilingual_teaching')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_project_based_learning')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_apprenticeship')))])]),_c('h4',[_vm._v(_vm._s(_vm.$t('message.esiea_career_opportunities')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.esiea_job_titles')))]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job1')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job2')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job3')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job4')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job5')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.esiea_job6')))])]),_c('h4',[_vm._v(_vm._s(_vm.$t('message.esiea_about')))]),_c('p',[_vm._v(_vm._s(_vm.$t('message.esiea_about_desc')))])])]),_c('section',{staticClass:"section-card experience"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.experience')))]),_c('div',{staticClass:"experience"},[_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.experience_cea_title')))])]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc1')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc2')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc3')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc4')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc5')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_cea_desc6')))])]),_c('p',[_c('strong',[_vm._v(_vm._s(_vm.$t('message.experience_hemmersbach_title')))])]),_c('ul',[_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_hemmersbach_desc1')))]),_c('li',[_vm._v(_vm._s(_vm.$t('message.experience_hemmersbach_desc2')))])])])]),_c('section',{staticClass:"section-card projects"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.projects')))]),_c('div',{staticClass:"projects"},[_c('p',[_c('a',{attrs:{"href":"#/projects#carte-france"}},[_vm._v(_vm._s(_vm.$t('message.carte_france')))])]),_c('p',[_c('a',{attrs:{"href":"#/projects#demarche-low-tech"}},[_vm._v(_vm._s(_vm.$t('message.demarche_low_tech')))])])])]),_c('section',{staticClass:"section-card cv"},[_c('h2',[_vm._v(_vm._s(_vm.$t('message.cv')))]),_c('div',{staticClass:"cv"},[_c('p',[_vm._v(_vm._s(_vm.$t('message.msg_cv')))]),_c('a',{attrs:{"href":_vm.cvLink,"target":"_blank"}},[_vm._v(_vm._s(_vm.$t('message.view_cv')))])])])])])
 }
-var Detailsvue_type_template_id_4c0f7740_scoped_true_staticRenderFns = []
+var Detailsvue_type_template_id_52b08328_scoped_true_staticRenderFns = []
 
 
 ;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Details.vue?vue&type=script&lang=js
 
 /* harmony default export */ const Detailsvue_type_script_lang_js = ({
   name: 'Details',
+  mounted() {
+    document.title = "Details";
+  },
   computed: {
     cvLink() {
       return this.$t('message.cv_link');
@@ -252,10 +264,10 @@ var Detailsvue_type_template_id_4c0f7740_scoped_true_staticRenderFns = []
 
 ;// CONCATENATED MODULE: ./src/components/Details.vue?vue&type=script&lang=js
  /* harmony default export */ const components_Detailsvue_type_script_lang_js = (Detailsvue_type_script_lang_js); 
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Details.vue?vue&type=style&index=0&id=4c0f7740&prod&scoped=true&lang=css
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Details.vue?vue&type=style&index=0&id=52b08328&prod&scoped=true&lang=css
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/components/Details.vue?vue&type=style&index=0&id=4c0f7740&prod&scoped=true&lang=css
+;// CONCATENATED MODULE: ./src/components/Details.vue?vue&type=style&index=0&id=52b08328&prod&scoped=true&lang=css
 
 ;// CONCATENATED MODULE: ./src/components/Details.vue
 
@@ -268,11 +280,11 @@ var Detailsvue_type_template_id_4c0f7740_scoped_true_staticRenderFns = []
 
 var Details_component = (0,componentNormalizer/* default */.A)(
   components_Detailsvue_type_script_lang_js,
-  Detailsvue_type_template_id_4c0f7740_scoped_true_render,
-  Detailsvue_type_template_id_4c0f7740_scoped_true_staticRenderFns,
+  Detailsvue_type_template_id_52b08328_scoped_true_render,
+  Detailsvue_type_template_id_52b08328_scoped_true_staticRenderFns,
   false,
   null,
-  "4c0f7740",
+  "52b08328",
   null
   
 )
@@ -680,9 +692,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [504], () => (__webpack_require__(738)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [504], () => (__webpack_require__(696)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.7e413003.js.map
+//# sourceMappingURL=app.c2551fd2.js.map
