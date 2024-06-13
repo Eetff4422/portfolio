@@ -60,6 +60,143 @@ nav {
 }
 
 
+.section-card[data-v-74676d90] {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.contact-card[data-v-74676d90] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-info p[data-v-74676d90] {
+  margin: 10px 0;
+}
+.contact-info a[data-v-74676d90] {
+  color: #007bff;
+  text-decoration: none;
+}
+.contact-info a[data-v-74676d90]:hover {
+  text-decoration: underline;
+}
+h2[data-v-74676d90], h3[data-v-74676d90] {
+  color: #333;
+  text-align: center;
+}
+p[data-v-74676d90] {
+  color: #555;
+  text-align: left;
+}
+h3[data-v-74676d90] {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin-bottom: 1rem;
+}
+h3[data-v-74676d90]::before,
+   h3[data-v-74676d90]::after {
+     content: '';
+     flex: 1;
+     border-bottom: 2px solid #333;
+     margin: 0 1rem;
+}
+form[data-v-74676d90] {
+  display: flex;
+  flex-direction: column;
+}
+input[data-v-74676d90], textarea[data-v-74676d90], button[data-v-74676d90] {
+  margin-bottom: 10px;
+}
+textarea[data-v-74676d90] {
+  resize: vertical;
+  min-height: 100px;
+}
+
+
+.section-card[data-v-52b08328] {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-container[data-v-52b08328] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.section-card.skills[data-v-52b08328],
+.section-card.education[data-v-52b08328],
+.section-card.experience[data-v-52b08328],
+.section-card.projects[data-v-52b08328] {
+  flex: 1 1 calc(50% - 2rem);
+}
+.skills[data-v-52b08328], .education[data-v-52b08328], .experience[data-v-52b08328], .projects[data-v-52b08328] {
+  margin-bottom: 20px;
+}
+.skills ul[data-v-52b08328] {
+  list-style-type: none;
+  padding: 0;
+}
+.skills li[data-v-52b08328] {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+.skills li strong[data-v-52b08328] {
+  color: #007bff;
+}
+h2[data-v-52b08328] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+h2[data-v-52b08328]::before,
+h2[data-v-52b08328]::after {
+  content: '';
+  flex: 1;
+  border-bottom: 2px solid #333;
+  margin: 0 1rem;
+}
+h2[data-v-52b08328], h3[data-v-52b08328] {
+  color: #333;
+}
+h1[data-v-52b08328] {
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+p[data-v-52b08328], ul[data-v-52b08328], li[data-v-52b08328] {
+  color: #555;
+}
+.section-card.cv p[data-v-52b08328] {
+    margin: 2px 0;
+}
+.section-card.cv a[data-v-52b08328] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.section-card.cv a[data-v-52b08328]:hover {
+    background-color: #0056b3;
+}
+
+
 .section-card[data-v-8fa7012a] {
   background-color: #f8f8f8;
   padding: 2rem;
@@ -190,68 +327,6 @@ button[data-v-8fa7012a]:hover {
 }
 
 
-.section-card[data-v-74676d90] {
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  text-align: center;
-}
-.contact-card[data-v-74676d90] {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f9f9f9;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.contact-info p[data-v-74676d90] {
-  margin: 10px 0;
-}
-.contact-info a[data-v-74676d90] {
-  color: #007bff;
-  text-decoration: none;
-}
-.contact-info a[data-v-74676d90]:hover {
-  text-decoration: underline;
-}
-h2[data-v-74676d90], h3[data-v-74676d90] {
-  color: #333;
-  text-align: center;
-}
-p[data-v-74676d90] {
-  color: #555;
-  text-align: left;
-}
-h3[data-v-74676d90] {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     text-align: center;
-     margin-bottom: 1rem;
-}
-h3[data-v-74676d90]::before,
-   h3[data-v-74676d90]::after {
-     content: '';
-     flex: 1;
-     border-bottom: 2px solid #333;
-     margin: 0 1rem;
-}
-form[data-v-74676d90] {
-  display: flex;
-  flex-direction: column;
-}
-input[data-v-74676d90], textarea[data-v-74676d90], button[data-v-74676d90] {
-  margin-bottom: 10px;
-}
-textarea[data-v-74676d90] {
-  resize: vertical;
-  min-height: 100px;
-}
-
-
 .content-section[data-v-7353f3a6] {
   padding: 20px;
   background-color: #fff;
@@ -296,80 +371,5 @@ hr[data-v-7353f3a6] {
   border: none;
   border-top: 2px solid #ddd;
   margin: 20px 0;
-}
-
-
-.section-card[data-v-52b08328] {
-  background-color: #f8f8f8;
-  padding: 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.card-container[data-v-52b08328] {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-.section-card.skills[data-v-52b08328],
-.section-card.education[data-v-52b08328],
-.section-card.experience[data-v-52b08328],
-.section-card.projects[data-v-52b08328] {
-  flex: 1 1 calc(50% - 2rem);
-}
-.skills[data-v-52b08328], .education[data-v-52b08328], .experience[data-v-52b08328], .projects[data-v-52b08328] {
-  margin-bottom: 20px;
-}
-.skills ul[data-v-52b08328] {
-  list-style-type: none;
-  padding: 0;
-}
-.skills li[data-v-52b08328] {
-  margin: 5px 0;
-  padding: 5px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
-}
-.skills li strong[data-v-52b08328] {
-  color: #007bff;
-}
-h2[data-v-52b08328] {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-h2[data-v-52b08328]::before,
-h2[data-v-52b08328]::after {
-  content: '';
-  flex: 1;
-  border-bottom: 2px solid #333;
-  margin: 0 1rem;
-}
-h2[data-v-52b08328], h3[data-v-52b08328] {
-  color: #333;
-}
-h1[data-v-52b08328] {
-  font-size: 2.5em;
-  color: #2c3e50;
-}
-p[data-v-52b08328], ul[data-v-52b08328], li[data-v-52b08328] {
-  color: #555;
-}
-.section-card.cv p[data-v-52b08328] {
-    margin: 2px 0;
-}
-.section-card.cv a[data-v-52b08328] {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.section-card.cv a[data-v-52b08328]:hover {
-    background-color: #0056b3;
 }
 
