@@ -406,7 +406,7 @@ const messages = {
       view_certification: 'Display ID',
       cv: 'CV',
       view_cv: 'View my CV',
-      cv_link: 'https://drive.google.com/file/d/1kZxH1sbhp8R68e9lOi-ywrXzXT_j3mZb/view?usp=sharing',
+      cv_link: 'https://drive.google.com/file/d/1rs_IuL1gbDKgNHK-phjF78o6Dvo-h3hc/view?usp=drive_link',
       msg_cv: 'You can view my full CV by clicking on the following link:',
       carte_france: 'Interactive Map of France',
       demarche_low_tech: 'Low Tech Approach (CSR)',
@@ -483,7 +483,7 @@ const messages = {
       view_certification: 'Afficher l\'identifiant',
       cv: 'CV',
       view_cv: 'Voir mon CV',
-      cv_link: 'https://drive.google.com/file/d/1R_fh6P5vIUYJHGQ8VlAiKQ2bU1eys-_9/view?usp=sharing',
+      cv_link: 'https://drive.google.com/file/d/130x5q3oCT_ey7BAnpkwXNetFIswe2khT/view?usp=drive_link',
       msg_cv: 'Vous pouvez consulter mon CV complet en cliquant sur le lien suivant :',
       carte_france: 'Carte de France interactive',
       demarche_low_tech: 'Démarche low tech (RSE)',
@@ -738,4 +738,4 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.bf0c1dfa.js.map
+//# sourceMappingURL=app.d47d8252.js.map
