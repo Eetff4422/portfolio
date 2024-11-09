@@ -45,7 +45,7 @@
     <section class="section-card contact-info">
       <h2>{{ $t('message.contact') }}</h2>
       <div class="contact-info">
-        <p><strong>{{ $t('message.phone') }}:</strong> +33 7 82 14 60 19</p>
+        <p><strong>{{ $t('message.phone') }}:</strong> +33 7 83 11 81 12</p>
         <p><strong>{{ $t('message.email') }}:</strong> <a href="mailto:frangiessono1@gmail.com">frangiessono1@gmail.com</a></p>
         <p><strong>{{ $t('message.linkedin') }}:</strong> <a href="https://www.linkedin.com/in/franklin-essono/" target="_blank">franklin-essono</a></p>
       </div>
