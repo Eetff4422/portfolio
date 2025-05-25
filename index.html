@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil - Portfolio Franklin Essono</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+  <div id="nav"></div>
+
+  <main class="container">
+    <header class="hero">
+      <h1>Bienvenue sur mon portfolio</h1>
+      <img src="images/FE.jpg" alt="me" width="300" height="400" />
+      <p>Je suis Franklin Essono, ingénieur logiciel passionné par le développement web et l'analyse de données.</p>
+      <a href="/projects.html" class="btn">Voir mes projets</a>
+    </header>
+
+    <section class="about-preview">
+      <h2 class="section-title">À propos de moi</h2>
+      <p>Étudiant à l'ESIEA en alternance, je travaille sur des projets de traitement de données en Python et développe des applications web. Mon objectif : devenir un ingénieur complet et impactant.</p>
+      <a href="/about.html" class="link">En savoir plus →</a>
+    </section>
+
+    <section class="highlighted-projects">
+      <h2 class="section-title">Projets récents</h2>
+      <ul class="project-list">
+        <li>
+          <h3>Carte interactive des villes de France</h3>
+          <p>Application web en React et Spring Boot avec base de données SQL, pour explorer les villes françaises.</p>
+        </li>
+        <li>
+          <h3>Refonte UX d’un site e-commerce</h3>
+          <p>Prototype Figma et tests utilisateurs pour améliorer l’expérience d’achat en ligne.</p>
+        </li>
+      </ul>
+      <a href="/projects.html" class="link">Voir tous les projets →</a>
+    </section>
+
+    <section class="contact-cta">
+      <h2 class="section-title">Travaillons ensemble</h2>
+      <p>Envie de collaborer sur un projet ou simplement échanger ? Contactez-moi dès maintenant.</p>
+      <a href="/contact.html" class="btn">Me contacter</a>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>© 2025 Franklin Essono. Tous droits réservés.</p>
+  </footer>
+
+<script type="module">
+  import { renderNav } from "./nav.js";
+  renderNav();
+</script>
+</body>
+</html>

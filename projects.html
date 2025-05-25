@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projets - Franklin Essono</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body class="projects-page">
+  <div id="nav"></div>
+
+  <header class="hero">
+    <h1>Mes projets</h1>
+    <p>Découvrez une sélection de mes réalisations techniques, alliant développement web, analyse de données et expérience utilisateur.</p>
+    <div class="projects-gallery">
+        <figure>
+          <img src="images/UX-Project1.jpg" alt="Refonte UX" width="500" height="350" />
+          <figcaption>Refonte UX du Site E-commerce "La Belle Vie"</figcaption>
+        </figure>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="project-section">
+        <h2 class="section-title">Carte Interactive des Villes de France</h2>
+        <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">Docker</span>
+                <span class="tag">API REST</span>
+        </div>
+      
+      <p>Application web full-stack permettant d'explorer les villes françaises à travers une interface cartographique interactive. Ce projet illustre une architecture microservices complète avec séparation claire des responsabilités.</p>
+      
+      <h3>Fonctionnalités principales</h3>
+      <p>Les utilisateurs peuvent cliquer n'importe où sur la carte de France métropolitaine pour découvrir les villes à proximité. L'application interroge une base de données contenant les informations géographiques et démographiques des communes françaises, avec des paramètres de recherche configurables.</p>
+      
+      <h3>Architecture technique</h3>
+      <p><strong>Frontend :</strong> Développé en React pour une expérience utilisateur dynamique, avec gestion des interactions cartographiques en temps réel.</p>
+      <p><strong>Backend :</strong> API REST en Spring Boot (Java) gérant les requêtes géospatiales et la logique métier.</p>
+      <p><strong>Base de données :</strong> MySQL optimisée pour les requêtes géographiques avec indexation des coordonnées.</p>
+      <p><strong>Déploiement :</strong> Architecture containerisée avec Docker Compose pour un déploiement simplifié.</p>
+      
+      <h3>Tests et qualité</h3>
+      <p>Implémentation de tests unitaires (JUnit/Mockito) pour le backend et tests d'acceptation (Cypress) pour le frontend, garantissant la robustesse de l'application.</p>
+      
+      <div class="project-links">
+        <a href="https://github.com/Eetff4422/Carte-interactive" class="project-card github-card" target="_blank" rel="noopener noreferrer">
+          <div class="card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <h4>Code Source</h4>
+            <p>Voir le repository GitHub</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="project-section">
+      <h2 class="section-title">Refonte UX du Site E-commerce "La Belle Vie"</h2>
+      <div class="project-tags">
+        <span class="tag">UX/UI Design</span>
+        <span class="tag">Figma</span>
+        <span class="tag">Tests Utilisateurs</span>
+        <span class="tag">Prototypage</span>
+      </div>
+      
+      <p>Projet collaboratif de refonte complète de l'expérience utilisateur d'un site e-commerce, réalisé dans le cadre des cours UX Design à l'ESIEA. L'objectif était de résoudre les points de friction identifiés dans le parcours d'achat.</p>
+      
+      <h3>Analyse et recherche utilisateur</h3>
+      <p>Conduite d'interviews utilisateurs pour identifier les frustrations principales : navigation peu intuitive, manque de filtres de recherche performants, et parcours d'achat complexe. Benchmark concurrentiel réalisé sur des références comme Carrefour et Franprix.</p>
+      
+      <h3>Conception et prototypage</h3>
+      <p>Création d'une maquette interactive sur Figma intégrant les améliorations identifiées : système de filtrage avancé, navigation optimisée par catégories, et tunnel de commande simplifié avec confirmations visuelles.</p>
+      
+      <h3>Scénario de test validé</h3>
+      <p>Développement d'un parcours utilisateur complet depuis l'arrivée sur la page d'accueil jusqu'à la confirmation de commande, incluant l'exploration des catégories, le filtrage (ex: Viande > Boucherie > Bœuf), l'ajout au panier avec animations, et le processus de paiement sécurisé.</p>
+      
+      <h3>Résultats</h3>
+      <p>Les tests utilisateurs ont validé une amélioration significative de la fluidité du parcours et une réduction des abandons de panier grâce aux nouvelles fonctionnalités proposées.</p>
+      
+      <div class="project-links">
+        <a href="https://www.figma.com/proto/hltFX3cCLAdgx8ztxbIPfN/UX---Design?node-id=4-37&t=yTFnDgyJm36UQ5Lm-1&starting-point-node-id=4%3A37" class="project-card figma-card" target="_blank" rel="noopener noreferrer">
+          <div class="card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.354-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.015-4.49-4.491S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.505-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148z"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <h4>Prototype Figma</h4>
+            <p>Voir la maquette interactive</p>
+          </div>
+        </a>
+        <a href="https://github.com/Eetff4422/Projet-La_Belle_Vie?tab=readme-ov-file" class="project-card image-card" target="_blank" rel="noopener noreferrer">
+            <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </div>
+              <div class="card-content">
+                <h4>Code Source</h4>
+                <p>Voir le repository GitHub</p>
+              </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="project-section">
+      <h2 class="section-title">Monitoring des véhicules</h2>
+      <div class="project-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Data Analysis</span>
+        <span class="tag">Pandas</span>
+        <span class="tag">Alternance</span>
+        <span class="tag">CEA Grenoble</span>
+      </div>
+      
+      <p>Développement de scripts Python avancés pour l'analyse et le traitement de données de monitoring véhicules dans le cadre de mon alternance au CEA Grenoble.</p>
+      
+      <h3>Traitement de données complexes</h3>
+      <p>Création de pipelines de traitement pour des volumes importants de données : nettoyage automatisé, détection d'anomalies, et normalisation des formats de données provenant de différentes sources.</p>
+      
+      <h3>Automatisation des rapports</h3>
+      <p>Génération automatisée de rapports d'analyse avec visualisations graphiques, permettant aux équipes de recherche de suivre les performances des véhicules testés et d'identifier rapidement les tendances critiques.</p>
+    </div>
+
+    <div class="project-section">
+      <h2 class="section-title">Application de Gestion de Matériel</h2>
+      <div class="project-tags">
+        <span class="tag">PHP</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">Stage BTS</span>
+        <span class="tag">Hemmersbach France</span>
+      </div>
+      
+      <p>Application web développée lors de mon stage chez Hemmersbach France pour aider les techniciens lors de leurs interventions.</p>
+      
+      <h3>Interface utilisateur intuitive</h3>
+      <p>Développement d'une interface web responsive permettant aux techniciens de retrouver facilement des informations sur certains équipements.</p>
+      
+      <h3>Base de données optimisée</h3>
+      <p>Conception d'une base de données MySQL por le stockages des informations sur les équipements informatiques.</p>
+    </div>
+    <div class="certifications-section">
+      <h2 class="section-title">Certifications et Formation Continue</h2>
+      
+      <div class="certification-group">
+        <h3>Data Analysis & Python</h3>
+        <div class="cert-item">
+          <strong>Data Analysis with Python</strong> - freeCodeCamp (Mars 2024)
+          <p>Certification complète en analyse de données avec Python, couvrant pandas, numpy, et visualisation de données.</p>
+          
+          <div class="project-links">
+            <a href="https://www.freecodecamp.org/certification/FranklinEssonoEssono/data-analysis-with-python-v7" class="project-card certification-card" target="_blank">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <div class="card-content">
+                <h4>Certification Python</h4>
+                <p>freeCodeCamp - Data Analysis</p>
+              </div>
+            </a>
+          </div>
+          <br>
+        </div>
+        <div class="cert-item">
+          <strong>Python (Kaggle Learn)</strong> - Kaggle (Avril 2025)
+          <p>Certification pratique en programmation Python avec focus sur l'analyse de données et machine learning.</p>
+        
+          <div class="project-links">
+            <a href="https://www.kaggle.com/learn/certification/franklinessonoessono/python" class="project-card certification-card" target="_blank">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <div class="card-content">
+                <h4>Python (Kaggle Learn) - Kaggle (Avril 2025)</h4>
+                <p>Kaggle Learn</p>
+              </div>
+            </a>
+          </div>
+          <br>
+        </div>
+      </div>
+
+      <div class="certification-group">
+        <h3>Développement & Outils</h3>
+        <div class="cert-item">
+          <strong>Introduction to Java Programming</strong> - Coursera (Janvier 2025)
+          <p>Fondamentaux de la programmation Java et concepts orientés objet.</p>
+        
+          <div class="project-links">
+            <a href="https://coursera.org/share/363e7ebb54b0cd2e8c6f79532e1cbb6c" class="project-card certification-card" target="_blank">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <div class="card-content">
+                <h4>Introduction to Java Programming - Coursera (Janvier 2025)</h4>
+                <p>Coursera</p>
+              </div>
+            </a>
+          </div>
+          <br>
+        </div>
+        <div class="cert-item">
+          <strong>Introduction to Data Analysis using Microsoft Excel</strong> - Coursera (Mai 2025)
+          <p>Techniques d'analyse de données avec Excel.</p>
+        
+          <div class="project-links">
+            <a href="https://coursera.org/share/52e59ca9ccd3ccd3a11d4924e7a156ad" class="project-card certification-card" target="_blank">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <div class="card-content">
+                <h4>Introduction to Data Analysis using Microsoft Excel - Coursera (Mai 2025)</h4>
+                <p>Coursera</p>
+              </div>
+            </a>
+          </div>
+          <br>
+        </div>
+        <div class="cert-item">
+          <strong>Build a free website with WordPress</strong> - Coursera (Mai 2025)
+          <p>Création et gestion de sites web avec WordPress, personnalisation de thèmes.</p>
+        
+          <div class="project-links">
+            <a href="https://coursera.org/share/179bd238a53374a38c898c04e72f4e02" class="project-card certification-card" target="_blank">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <div class="card-content">
+                <h4>Build a free website with WordPress - Coursera (Mai 2025)</h4>
+                <p>Coursera</p>
+              </div>
+            </a>
+          </div>
+          <br>
+        </div>
+        <h3>Anglais</h3>
+        <div class="cert-item">
+            <strong>Test Of English International Communication</strong> - ETS (Août 2024)
+            <p>TOEIC</p>
+          
+            <div class="project-links">
+              <a href="https://www.etsglobal.org/fr/en/digital-score-report/F9058707CD534FD8A9EAB34DEA8A23BA9CDF43A45F139B26B18BF46F7EB6A826ZnY4TnU5NXM5RXZaTzVSejN3U1FvWlNpNG9RaCtiOGlFM2VXcWIvRUVsS3dUNkNj" class="project-card certification-card" target="_blank">
+                <div class="card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                </div>
+                <div class="card-content">
+                  <h4>Test Of English International Communication - ETS (Août 2024)</h4>
+                  <p>ETS</p>
+                </div>
+              </a>
+            </div>
+            <br>
+          </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Franklin Essono. Tous droits réservés.</p>
+  </footer>
+
+  <script type="module">
+    import { renderNav } from "./nav.js";
+    renderNav();
+  </script>
+  </body>
+</html>
