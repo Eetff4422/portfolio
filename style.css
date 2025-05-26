@@ -291,6 +291,13 @@ body {
     background-color: #2196f3;
     color: white;
   }
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+  }
   img {
     max-width: 100%;
     height: auto;
@@ -435,12 +442,6 @@ body {
     .projects-gallery {
       flex-direction: column;
       gap: 20px;
-    }
-    img {
-      max-width: 70%;
-      height: auto;
-      display: block;
-      object-fit: contain;
     }
   }
   
