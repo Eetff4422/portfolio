@@ -9,6 +9,7 @@ export function renderNav() {
           <li><a href="/index.html">Accueil</a></li>
           <li><a href="/about.html">À propos</a></li>
           <li><a href="/projects.html">Projets</a></li>
+          <li><a href="/certifications-diplomes.html">Certifications & Diplômes</a></li>
         </ul>
       </nav>
     `;
