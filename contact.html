@@ -66,7 +66,7 @@
   </script>
 
   <!-- EmailJS SDK -->
-  <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+  <script src="https://cdn.emailjs.com/sdk/latest/email.min.js"></script>
   <script>
     (function(){
       emailjs.init("5aMW2WN94KDKftkAe"); // user_id
@@ -78,7 +78,6 @@
     form.addEventListener('submit', function(event) {
       event.preventDefault();
 
-      // Préparer les données à envoyer
       const templateParams = {
         name: form.name.value,
         email: form.email.value,
