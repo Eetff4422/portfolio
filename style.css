@@ -437,7 +437,7 @@ body {
       gap: 20px;
     }
     img {
-      width: auto;
+      max-width: 70%;
       height: auto;
       display: block;
       object-fit: contain;
