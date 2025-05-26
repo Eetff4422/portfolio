@@ -290,9 +290,9 @@ body {
   }
   img {
     max-width: 100%;
+    width: auto;
     height: auto;
     display: block;
-    width: 100%;
     object-fit: contain;
   }
   .card-content h4 {
