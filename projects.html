@@ -2,6 +2,10 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
+  <meta property="og:title" content="Projets - Franklin Essono">
+  <meta property="og:description" content="Découvrez les projets de Franklin Essono : développement web, UX design, analyse de données.">
+  <meta property="og:image" content="images/logo.png">
+  <meta name="description" content="Découvrez une sélection des projets techniques de Franklin Essono, ingénieur en développement logiciel.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projets - Franklin Essono</title>
   <link rel="stylesheet" href="/style.css" />
@@ -13,26 +17,20 @@
   <header class="hero">
     <h1>Mes projets</h1>
     <p>Découvrez une sélection de mes réalisations techniques, alliant développement web, analyse de données et expérience utilisateur.</p>
-    <div class="projects-gallery">
-        <figure>
-          <img src="images/UX-Project1.jpg" alt="Refonte UX" width="500" height="350" />
-          <figcaption>Refonte UX du Site E-commerce "La Belle Vie"</figcaption>
-        </figure>
-    </div>
   </header>
 
   <main class="container">
     <div class="project-section">
         <h2 class="section-title">Carte Interactive des Villes de France</h2>
         <div class="project-tags">
-                <span class="tag">React</span>
-                <span class="tag">Spring Boot</span>
-                <span class="tag">MySQL</span>
-                <span class="tag">Docker</span>
+               • <span class="tag">React</span> •
+                <span class="tag">Spring Boot</span> •
+                <span class="tag">MySQL</span> •
+                <span class="tag">Docker</span> •
                 <span class="tag">API REST</span>
         </div>
       
-      <p>Application web full-stack permettant d'explorer les villes françaises à travers une interface cartographique interactive. Ce projet illustre une architecture microservices complète avec séparation claire des responsabilités.</p>
+      <p>Application web full-stack permettant d'explorer les villes françaises à travers une interface cartographique interactive.</p>
       
       <h3>Fonctionnalités principales</h3>
       <p>Les utilisateurs peuvent cliquer n'importe où sur la carte de France métropolitaine pour découvrir les villes à proximité. L'application interroge une base de données contenant les informations géographiques et démographiques des communes françaises, avec des paramètres de recherche configurables.</p>
@@ -40,7 +38,7 @@
       <h3>Architecture technique</h3>
       <p><strong>Frontend :</strong> Développé en React pour une expérience utilisateur dynamique, avec gestion des interactions cartographiques en temps réel.</p>
       <p><strong>Backend :</strong> API REST en Spring Boot (Java) gérant les requêtes géospatiales et la logique métier.</p>
-      <p><strong>Base de données :</strong> MySQL optimisée pour les requêtes géographiques avec indexation des coordonnées.</p>
+      <p><strong>Base de données :</strong> MySQL pour les requêtes géographiques avec indexation des coordonnées.</p>
       <p><strong>Déploiement :</strong> Architecture containerisée avec Docker Compose pour un déploiement simplifié.</p>
       
       <h3>Tests et qualité</h3>
@@ -59,14 +57,20 @@
           </div>
         </a>
       </div>
+      <div class="projects-gallery">
+        <figure>
+          <img src="images/CI-Project1.jpeg" alt="Carte Interactive" width="500" height="350" loading="lazy"/>
+          <figcaption>Carte Interactive des villes de France</figcaption>
+        </figure>
+    </div>
     </div>
 
     <div class="project-section">
       <h2 class="section-title">Refonte UX du Site E-commerce "La Belle Vie"</h2>
       <div class="project-tags">
-        <span class="tag">UX/UI Design</span>
-        <span class="tag">Figma</span>
-        <span class="tag">Tests Utilisateurs</span>
+        • <span class="tag">UX/UI Design</span> •
+        <span class="tag">Figma</span> •
+        <span class="tag">Tests Utilisateurs</span> •
         <span class="tag">Prototypage</span>
       </div>
       
@@ -76,7 +80,7 @@
       <p>Conduite d'interviews utilisateurs pour identifier les frustrations principales : navigation peu intuitive, manque de filtres de recherche performants, et parcours d'achat complexe. Benchmark concurrentiel réalisé sur des références comme Carrefour et Franprix.</p>
       
       <h3>Conception et prototypage</h3>
-      <p>Création d'une maquette interactive sur Figma intégrant les améliorations identifiées : système de filtrage avancé, navigation optimisée par catégories, et tunnel de commande simplifié avec confirmations visuelles.</p>
+      <p>Création d'une maquette interactive sur Figma intégrant les améliorations identifiées : système de filtrage avancé, navigation par catégories, et tunnel de commande simplifié avec confirmations visuelles.</p>
       
       <h3>Scénario de test validé</h3>
       <p>Développement d'un parcours utilisateur complet depuis l'arrivée sur la page d'accueil jusqu'à la confirmation de commande, incluant l'exploration des catégories, le filtrage (ex: Viande > Boucherie > Bœuf), l'ajout au panier avec animations, et le processus de paiement sécurisé.</p>
@@ -108,33 +112,39 @@
               </div>
         </a>
       </div>
+      <div class="projects-gallery">
+        <figure>
+          <img src="images/UX-Project1.jpg" alt="Refonte UX" width="500" height="350" loading="lazy"/>
+          <figcaption>Refonte UX du Site E-commerce "La Belle Vie"</figcaption>
+        </figure>
+    </div>
     </div>
 
     <div class="project-section">
       <h2 class="section-title">Monitoring des véhicules</h2>
       <div class="project-tags">
-        <span class="tag">Python</span>
-        <span class="tag">Data Analysis</span>
-        <span class="tag">Pandas</span>
-        <span class="tag">Alternance</span>
+        • <span class="tag">Python</span> •
+        <span class="tag">Data Analysis</span> •
+        <span class="tag">Pandas</span> •
+        <span class="tag">Alternance</span> •
         <span class="tag">CEA Grenoble</span>
       </div>
       
-      <p>Développement de scripts Python avancés pour l'analyse et le traitement de données de monitoring véhicules dans le cadre de mon alternance au CEA Grenoble.</p>
+      <p>Développement de scripts Python avancés pour l'analyse et le traitement de données de véhicules dans le cadre de mon alternance au CEA Grenoble.</p>
       
       <h3>Traitement de données complexes</h3>
       <p>Création de pipelines de traitement pour des volumes importants de données : nettoyage automatisé, détection d'anomalies, et normalisation des formats de données provenant de différentes sources.</p>
       
       <h3>Automatisation des rapports</h3>
-      <p>Génération automatisée de rapports d'analyse avec visualisations graphiques, permettant aux équipes de recherche de suivre les performances des véhicules testés et d'identifier rapidement les tendances critiques.</p>
+      <p>Génération automatisée de rapports d'analyse avec visualisations graphiques, permettant de suivre les performances des véhicules testés et d'identifier rapidement les tendances critiques.</p>
     </div>
 
-    <div class="project-section">
+    <section class="project-section">
       <h2 class="section-title">Application de Gestion de Matériel</h2>
       <div class="project-tags">
-        <span class="tag">PHP</span>
-        <span class="tag">MySQL</span>
-        <span class="tag">Stage BTS</span>
+        • <span class="tag">PHP</span> •
+        <span class="tag">MySQL</span> •
+        <span class="tag">Stage BTS</span> •
         <span class="tag">Hemmersbach France</span>
       </div>
       
@@ -143,10 +153,10 @@
       <h3>Interface utilisateur intuitive</h3>
       <p>Développement d'une interface web responsive permettant aux techniciens de retrouver facilement des informations sur certains équipements.</p>
       
-      <h3>Base de données optimisée</h3>
-      <p>Conception d'une base de données MySQL por le stockages des informations sur les équipements informatiques.</p>
-    </div>
-    <div class="certifications-section">
+      <h3>Base de données</h3>
+      <p>Conception d'une base de données MySQL pour le stockages des informations sur les équipements informatiques.</p>
+    </section>
+    <section class="certifications-section">
       <h2 class="section-title">Certifications et Formation Continue</h2>
       
       <div class="certification-group">
@@ -233,7 +243,7 @@
         </div>
         <div class="cert-item">
           <strong>Build a free website with WordPress</strong> - Coursera (Mai 2025)
-          <p>Création et gestion de sites web avec WordPress, personnalisation de thèmes.</p>
+          <p>Création et gestion de sites web avec WordPress.</p>
         
           <div class="project-links">
             <a href="https://coursera.org/share/179bd238a53374a38c898c04e72f4e02" class="project-card certification-card" target="_blank">
@@ -271,11 +281,11 @@
             <br>
           </div>
       </div>
-    </div>
+    </section>
   </main>
 
   <footer class="footer">
-    <p>© 2025 Franklin Essono. Tous droits réservés.</p>
+    <p>© 2025 Franklin Essono. Tous droits réservés • <a href="https://github.com/Eetff4422" target="_blank">GitHub</a> • <a href="https://www.linkedin.com/in/franklin-essono" target="_blank">Linkedin</a></p>
   </footer>
 
   <script type="module">

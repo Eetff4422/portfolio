@@ -2,7 +2,7 @@ export function renderNav() {
     document.getElementById("nav").innerHTML = `
       <nav class="navbar">
         <div class="navbar-left">
-          <img src="/images/logo.png" alt="Logo" class="logo" />
+          <a href="/index.html"><img src="/images/logo.png" alt="Logo" class="logo" /></a>
           <div class="navbar-toggle" id="mobile-menu">&#9776;</div>
         </div>
         <ul class="navbar-links" id="navbar-links">

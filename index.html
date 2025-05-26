@@ -2,6 +2,10 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
+  <meta property="og:title" content="Accueil - Franklin Essono">
+  <meta property="og:description" content="Portfolio de Franklin Essono.">
+  <meta property="og:image" content="images/logo.png">
+  <meta name="description" content="Découvrez le portfolio de Franklin Essono, ingénieur en développement logiciel.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Accueil - Portfolio Franklin Essono</title>
   <link rel="stylesheet" href="/style.css" />
@@ -13,14 +17,14 @@
   <main class="container">
     <header class="hero">
       <h1>Bienvenue sur mon portfolio</h1>
-      <img src="images/FE.jpg" alt="me" width="300" height="400" />
+      <img src="images/FE.jpg" alt="me" width="300" height="400" loading="lazy"/>
       <p>Je suis Franklin Essono, ingénieur logiciel passionné par le développement web et l'analyse de données.</p>
       <a href="/projects.html" class="btn">Voir mes projets</a>
     </header>
 
     <section class="about-preview">
       <h2 class="section-title">À propos de moi</h2>
-      <p>Étudiant à l'ESIEA en alternance, je travaille sur des projets de traitement de données en Python et développe des applications web. Mon objectif : devenir un ingénieur complet et impactant.</p>
+      <p>Je suis Franklin Essono, j'ai 23 ans et je suis étudiant en ingénierie logicielle à l'ESIEA. Passionné par l'analyse de données et le développement web, je travaille sur des projets variés incluant le traitement de données en Python, le développement d'applications web et la conception UX/UI.</p>
       <a href="/about.html" class="link">En savoir plus →</a>
     </section>
 
@@ -30,10 +34,22 @@
         <li>
           <h3>Carte interactive des villes de France</h3>
           <p>Application web en React et Spring Boot avec base de données SQL, pour explorer les villes françaises.</p>
+          <div class="projects-gallery">
+              <figure>
+                <img src="images/CI-Project1.jpeg" alt="Carte Interactive" width="500" height="350" loading="lazy"/>
+                <figcaption>Carte Interactive des villes de France</figcaption>
+              </figure>
+          </div>
         </li>
         <li>
           <h3>Refonte UX d’un site e-commerce</h3>
           <p>Prototype Figma et tests utilisateurs pour améliorer l’expérience d’achat en ligne.</p>
+          <div class="projects-gallery">
+              <figure>
+                <img src="images/UX-Project1.jpg" alt="Refonte UX" width="500" height="350" loading="lazy"/>
+                <figcaption>Refonte UX du Site E-commerce "La Belle Vie"</figcaption>
+              </figure>
+          </div>
         </li>
       </ul>
       <a href="/projects.html" class="link">Voir tous les projets →</a>
@@ -46,7 +62,7 @@
     </section>
   </main>
   <footer class="footer">
-    <p>© 2025 Franklin Essono. Tous droits réservés.</p>
+    <p>© 2025 Franklin Essono. Tous droits réservés • <a href="https://github.com/Eetff4422" target="_blank">GitHub</a> • <a href="https://www.linkedin.com/in/franklin-essono" target="_blank">Linkedin</a></p>
   </footer>
 
 <script type="module">
